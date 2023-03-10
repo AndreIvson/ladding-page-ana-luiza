@@ -1,0 +1,55 @@
+header{
+    padding: 20px;
+}
+.contact-box {
+    padding: 20px;
+}
+form {
+    width: 500px;
+    margin: auto;
+    background-color: #611B3E;
+    border-radius: 15px;
+    padding: 20px;
+    font-size: 25px;
+    color: #CCB6C1;
+    
+}
+
+form fieldset {
+    border: 0;
+
+}
+
+form fieldset label {
+    display: block;
+}
+
+form fieldset input, textarea {
+    width: 100%;
+}
+
+#submit-contact {
+    margin: 0;
+}
+
+.contact-box img {
+    height: 50px;
+    width: 50px;
+    padding: 20px;
+    
+}
+
+@media only screen and (max-width: 840px) {
+    form {
+        width: 300px;
+        margin: auto;
+        padding: 10px;
+}
+header {
+    padding: 10px;
+}
+
+.contact-box{
+    padding: 20px;
+}
+}
